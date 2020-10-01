@@ -7,6 +7,4 @@
  */
 public interface returneraVikt {
     int returneraVikt();
-    String getNamn();
-    Foder getFoder();
 }
