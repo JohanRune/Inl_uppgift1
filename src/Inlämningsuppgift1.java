@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Johan Rune
+ * Created by Johan Rune,
  * Date: 2020-09-28
  * Time: 15:03
  * Project: IntelliJ IDEA
@@ -32,8 +32,8 @@ public class Inlämningsuppgift1 {
         while (loop == true) {
             for (returneraVikt r : returneraFoderVikt)
                 if (namn.toLowerCase().equals(r.getNamn().toLowerCase())) {
-                    JOptionPane.showMessageDialog(null, r.getNamn() + //r.fåNamn() är ett exempel på polymorfism
-                            " ska få " + r.returneraVikt() + " gram " + r.getFoder().toString().toLowerCase()); //r.returneraVikt() är ett till exempel på polymorfism.
+                    JOptionPane.showMessageDialog(null, (r.getNamn() + //r.fåNamn() är ett exempel på polymorfism
+                            " ska få " + r.returneraVikt() + " gram " + r.getFoder().toString().toLowerCase())); //r.returneraVikt() är ett till exempel på polymorfism.
                     loop = false;
                     harHittat = true;
                 }

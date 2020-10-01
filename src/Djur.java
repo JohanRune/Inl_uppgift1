@@ -24,7 +24,7 @@ public abstract class Djur implements returneraVikt{
         return namn;
     }
 
-    public Foder getFoder() {
+    public Foder getFoder() { //inkapsling
         return foder;
     }
 }
